@@ -56,3 +56,9 @@ keymap.set("n", "<leader>gs", "<cmd>Telescope git_status<cr>") -- list current c
 
 -- restart lsp server (not on youtube nvim video)
 keymap.set("n", "<leader>rs", ":LspRestart<CR>") -- mapping to restart lsp if necessars
+
+-- ChatGPT
+-- https://github.com/jackMort/ChatGPT.nvim
+vim.keymap.set("n", "<Leader>tk", "<cmd>:ChatGPT<cr>")
+vim.keymap.set("n", "<Leader>tj", "<cmd>:ChatGPTActAs<cr>")
+vim.keymap.set("n", "<Leader>tt", "<cmd>:ChatGPTEditWithInstructions<cr>")
