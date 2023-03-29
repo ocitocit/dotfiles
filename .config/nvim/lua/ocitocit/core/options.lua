@@ -11,7 +11,7 @@ opt.expandtab = true
 opt.autoindent = true
 
 -- line wrapping
-opt.wrap = true
+opt.wrap = false
 
 -- search settings
 opt.ignorecase = true
@@ -29,7 +29,7 @@ opt.signcolumn = "yes"
 opt.backspace = "indent,eol,start"
 
 -- clipboard
-opt.clipboard:append("unnamedplus")
+opt.clipboard = "unnamedplus"
 
 -- split windows
 opt.splitright = true
