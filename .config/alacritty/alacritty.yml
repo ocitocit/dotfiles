@@ -128,7 +128,7 @@ font:
     style: Regular
 
   bold:
-    family: monospace
+    family: MesloLGS NF
     style: Bold
 
   italic:
@@ -136,10 +136,10 @@ font:
     style: Italic
 
   bold_italic:
-    family: monospace
+    family: MesloLGS NF
     style: Bold Italic
 
-  size: 11
+  size: 9
 # End Font Configuration
 # Offset is the extra space around each character. `offset.y` can be thought
 # of as modifying the line spacing, and `offset.x` as modifying the letter
