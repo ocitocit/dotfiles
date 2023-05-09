@@ -97,6 +97,22 @@ return packer.startup(function(use)
 			ts_update()
 		end,
 	})
+	--MarkDonw Preview with :MarkdownPreview to open :MarkdownPreviewStop to close
+	use({
+		"iamcco/markdown-preview.nvim",
+		run = function()
+			vim.fn["mkdp#util#install"]()
+		end,
+	})
+
+	-- use({
+	-- 	"iamcco/markdown-preview.nvim",
+	-- 	run = "cd app && npm install",
+	-- 	setup = function()
+	-- 		vim.g.mkdp_filetypes = { "markdown" }
+	-- 	end,
+	-- 	ft = { "markdown" },
+	-- })
 
 	-- auto closing
 	use("windwp/nvim-autopairs") -- autoclose parens, brackets, quotes, etc...

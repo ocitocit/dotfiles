@@ -62,3 +62,7 @@ keymap.set("n", "<C-t>", "<cmd>:terminal<cr>")
 
 -- save file CTRL + S
 keymap.set("n", "<C-s>", "<cmd>:w<cr>")
+
+--md viewer
+keymap.set("n", "<C-m>", "<cmd>:MarkdownPreview<cr>")
+keymap.set("n", "<leader>mdx", "<cmd>:MarkdownPreviewStop<cr>")
