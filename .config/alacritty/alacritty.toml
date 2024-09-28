@@ -1,0 +1,26 @@
+colors.draw_bold_text_with_bright_colors = true
+import = [ "~/.config/alacritty/catppuccin-mocha.toml" ]
+
+[font]
+size = 8
+
+  [font.normal]
+  family = "JetBrainsMono Nerd Font"
+  style = "Regular"
+
+  [font.bold]
+  family = "Fira Code iScript"
+  style = "Bold"
+
+  [font.italic]
+  family = "JetBrainsMono Nerd Font"
+  style = "Bold Italic"
+
+  [font.bold_italic]
+  family = "Fira Code iScript"
+  style = "Bold Italic"
+
+[shell]
+program = "/usr/bin/zsh"
+args = [ "--login" ]
+
