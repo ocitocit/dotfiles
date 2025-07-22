@@ -1,8 +1,7 @@
 colors.draw_bold_text_with_bright_colors = true
-import = [ "~/.config/alacritty/catppuccin-mocha.toml" ]
 
 [font]
-size = 8
+size = 11
 
   [font.normal]
   family = "JetBrainsMono Nerd Font"
@@ -20,7 +19,12 @@ size = 8
   family = "Fira Code iScript"
   style = "Bold Italic"
 
-[shell]
+[general]
+import = [ "~/.config/alacritty/catppuccin-mocha.toml" ]
+
+[terminal]
+
+[terminal.shell]
 program = "/usr/bin/zsh"
 args = [ "--login" ]
 
